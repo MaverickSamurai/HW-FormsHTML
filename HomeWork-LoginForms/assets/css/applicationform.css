@@ -1,0 +1,32 @@
+html{  
+    box-sizing: border-box;
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color: darksalmon;  
+  }  
+    div{
+        text-align: center;
+        margin: auto;
+
+    }
+  input[type=text], input[type=password], textarea {  
+    width: 30%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: aqua;  
+  }  
+  input[type=text]:focus, input[type=password]:focus {  
+    background-color: white;  
+    outline: none;  
+  }  
+    
+  hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 25px;  
+  }  
+
+  input[type=button]:hover{
+    background-color: greenyellow;
+    border: none;
+  }
